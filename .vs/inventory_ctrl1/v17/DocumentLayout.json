@@ -1,62 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\",
+  "WorkspaceRootPath": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ezh01\\desktop\\inventory_ctrl1\\client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|c:\\users\\ezh01\\source\\repos\\sql\\inventory_ctrl1\\server\\serverclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|solutionrelative:server\\serverclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|solutionrelative:server\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|solutionrelative:server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\connectwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\connectwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\connectwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\connectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\connectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\clientclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ezh01\\desktop\\inventory_ctrl1\\client\\db\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\db\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|c:\\users\\ezh01\\desktop\\inventory_ctrl1\\server\\serverclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|solutionrelative:server\\serverclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\clientclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\clientclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\connectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\connectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|solutionrelative:server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|solutionrelative:server\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,61 +87,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\Commands\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "client\\Commands\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\Commands\\RelayCommand.cs",
-              "RelativeToolTip": "client\\Commands\\RelayCommand.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\Db\\Tables\\User.cs",
+              "RelativeDocumentMoniker": "client\\Db\\Tables\\User.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\Db\\Tables\\User.cs",
+              "RelativeToolTip": "client\\Db\\Tables\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:05:29.229Z",
+              "WhenOpened": "2024-12-17T19:27:14.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "client\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "client\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowD4AAAAtAAAA",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "client\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\MainWindow.xaml.cs",
+              "RelativeToolTip": "client\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwB8AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:32:25.992Z",
+              "WhenOpened": "2024-12-17T14:57:31.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "client\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "client\\LoginWindow.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBkAAAAAAAAA",
+              "Title": "ConnectWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\ConnectWindow.xaml.cs",
+              "RelativeDocumentMoniker": "client\\ConnectWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\ConnectWindow.xaml.cs",
+              "RelativeToolTip": "client\\ConnectWindow.xaml.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAwGMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:19:54.91Z",
+              "WhenOpened": "2024-12-11T15:27:41.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\Db\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "client\\Db\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\Db\\ApplicationDbContext.cs",
-              "RelativeToolTip": "client\\Db\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T17:18:31.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "client\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\LoginWindow.xaml",
               "RelativeToolTip": "client\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-11T17:16:22.654Z",
@@ -141,113 +137,154 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ClientClass.cs",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\ClientClass.cs",
-              "RelativeDocumentMoniker": "client\\ClientClass.cs",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\ClientClass.cs",
-              "RelativeToolTip": "client\\ClientClass.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAANAAAA",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\Db\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "client\\Db\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\Db\\ApplicationDbContext.cs",
+              "RelativeToolTip": "client\\Db\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAvwBMAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T17:12:18.988Z"
+              "WhenOpened": "2024-12-11T17:18:31.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\App.config",
-              "RelativeDocumentMoniker": "client\\App.config",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\App.config",
-              "RelativeToolTip": "client\\App.config",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADYAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-11T16:39:56.59Z"
+              "DocumentIndex": 5,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "client\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "client\\Commands\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:05:29.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\App.config",
-              "RelativeDocumentMoniker": "server\\App.config",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\App.config",
-              "RelativeToolTip": "server\\App.config",
-              "ViewState": "AQIAABsAAAAAAAAAAAAIwDYAAABmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-11T16:39:37.702Z",
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "client\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "client\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAywFYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:32:25.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "client\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\MainWindow.xaml",
+              "RelativeToolTip": "client\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T08:55:45.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\Db\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "server\\Db\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\Db\\ApplicationDbContext.cs",
-              "RelativeToolTip": "server\\Db\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "client\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "client\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvycAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T15:31:44.795Z",
+              "WhenOpened": "2024-12-11T19:19:54.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "ServerClass.cs",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\ServerClass.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\ServerClass.cs",
               "RelativeDocumentMoniker": "server\\ServerClass.cs",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\ServerClass.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\ServerClass.cs",
               "RelativeToolTip": "server\\ServerClass.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAMwGQAAAAQAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAcwHwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T15:30:03.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\Program.cs",
-              "RelativeDocumentMoniker": "server\\Program.cs",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\server\\Program.cs",
-              "RelativeToolTip": "server\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T15:28:37.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ConnectWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\ConnectWindow.xaml.cs",
-              "RelativeDocumentMoniker": "client\\ConnectWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\ConnectWindow.xaml.cs",
-              "RelativeToolTip": "client\\ConnectWindow.xaml.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAwwBkAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T15:27:41.994Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ConnectWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\ConnectWindow.xaml",
-              "RelativeDocumentMoniker": "client\\ConnectWindow.xaml",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\ConnectWindow.xaml",
-              "RelativeToolTip": "client\\ConnectWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T15:27:36.75Z"
+              "Title": "ClientClass.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\ClientClass.cs",
+              "RelativeDocumentMoniker": "client\\ClientClass.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\ClientClass.cs",
+              "RelativeToolTip": "client\\ClientClass.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAvwBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:12:18.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\App.xaml",
               "RelativeDocumentMoniker": "client\\App.xaml",
-              "ToolTip": "C:\\Users\\ezh01\\source\\repos\\SQL\\inventory_ctrl1\\client\\App.xaml",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\App.xaml",
               "RelativeToolTip": "client\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-11T15:27:24.403Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\App.config",
+              "RelativeDocumentMoniker": "server\\App.config",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\App.config",
+              "RelativeToolTip": "server\\App.config",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwDYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-11T16:39:37.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConnectWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\ConnectWindow.xaml",
+              "RelativeDocumentMoniker": "client\\ConnectWindow.xaml",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\client\\ConnectWindow.xaml",
+              "RelativeToolTip": "client\\ConnectWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T15:27:36.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\Db\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "server\\Db\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\Db\\ApplicationDbContext.cs",
+              "RelativeToolTip": "server\\Db\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:31:44.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\Program.cs",
+              "RelativeDocumentMoniker": "server\\Program.cs",
+              "ToolTip": "C:\\Users\\ezh01\\Desktop\\inventory_ctrl1\\server\\Program.cs",
+              "RelativeToolTip": "server\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:28:37.749Z"
             }
           ]
         }

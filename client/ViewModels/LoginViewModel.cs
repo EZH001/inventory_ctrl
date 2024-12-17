@@ -17,6 +17,7 @@ namespace client.ViewModels
     public class LoginViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+        public Window LoginWindow { get; set; }
 
         private string _username;
         public string Username
@@ -47,11 +48,11 @@ namespace client.ViewModels
         }
 
         public ICommand LoginCommand { get; }
-        private readonly TcpClient client;
+        private WarehouseClient _warehouseClient;
 
-        public LoginViewModel(TcpClient client)
+        public LoginViewModel(WarehouseClient warehouseClient)
         {
-            this.client = client;
+            this._warehouseClient = warehouseClient;
             LoginCommand = new RelayCommand(LoginAsync, CanLogin);
         }
 
@@ -69,28 +70,26 @@ namespace client.ViewModels
             try
             {
                 // Отправка запроса на сервер в формате JSON
-                string requestJson = JsonConvert.SerializeObject(new { type = "auth", username = Username, password = Password });
-                byte[] requestBytes = Encoding.UTF8.GetBytes(requestJson);
-                await client.GetStream().WriteAsync(requestBytes, 0, requestBytes.Length);
+                //string requestJson = JsonConvert.SerializeObject(new { type = "auth", username = Username, password = Password });
+                //byte[] requestBytes = Encoding.UTF8.GetBytes(requestJson);
+                //await client.GetStream().WriteAsync(requestBytes, 0, requestBytes.Length);
 
-                byte[] responseBytes = new byte[1024];
-                int bytesRead = await client.GetStream().ReadAsync(responseBytes, 0, responseBytes.Length);
-                if (bytesRead > 0)
+                //byte[] responseBytes = new byte[1024];
+                //int bytesRead = await client.GetStream().ReadAsync(responseBytes, 0, responseBytes.Length);
+                //if (bytesRead > 0)
+                //{
+                //    string responseJson = Encoding.UTF8.GetString(responseBytes, 0, bytesRead).Trim('\0');
+                //    dynamic response = JsonConvert.DeserializeObject(responseJson);
+                var result = await _warehouseClient.Authenticate(Username, Password);
+                if (result)
                 {
-                    string responseJson = Encoding.UTF8.GetString(responseBytes, 0, bytesRead).Trim('\0');
-                    dynamic response = JsonConvert.DeserializeObject(responseJson);
-
-                    if ((bool)response.success)
-                    {
-                        MessageBox.Show("Успешная авторизация!");
-                        // Переход к следующему окну
-                    }
-                    else
-                    {
-                        MessageBox.Show((string)response.message);
-                    }
+                    MainWindow mainWindow = new MainWindow(_warehouseClient);
+                    mainWindow.Show();
+                    //LoginWindow.DialogResult = true;
+                    LoginWindow?.Close();
                 }
             }
+
             catch (JsonReaderException ex)
             {
                 MessageBox.Show($"Ошибка разбора JSON ответа: {ex.Message}");
@@ -104,6 +103,7 @@ namespace client.ViewModels
                 IsLoggingIn = false;
             }
         }
+        
 
 
         protected virtual bool SetProperty<T>(ref T storage, T value, [CallerMemberName] string propertyName = null)
@@ -118,7 +118,4 @@ namespace client.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-    }
-
-    
-}
+    }}

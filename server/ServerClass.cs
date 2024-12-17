@@ -105,7 +105,8 @@ namespace server
                     string username = request.username;
                     string password = request.password;
 
-                    if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password)) return JsonConvert.SerializeObject(new { success = false, message = "Не все поля заполнены" });
+                    if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+                        return JsonConvert.SerializeObject(new { success = false, message = "Не все поля заполнены" });
 
                     var user = await context.Users.FirstOrDefaultAsync(u => u.Username == username);
                     if (user != null && BCrypt.Net.BCrypt.Verify(password, user.Password))

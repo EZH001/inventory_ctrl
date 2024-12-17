@@ -21,18 +21,20 @@ namespace client
     /// </summary>
     public partial class LoginWindow : Window
     {
-        private TcpClient client; // Сюда будет храниться подключение к серверу
+         // Сюда будет храниться подключение к серверу
         public LoginViewModel ViewModel { get; set; }
 
-        public LoginWindow(TcpClient client)
+        public LoginWindow(WarehouseClient warehouseClient)
         {
-            this.client = client;
+            
             InitializeComponent();
-            ViewModel = new LoginViewModel(client); // передаем сокет в ViewModel
+            ViewModel = new LoginViewModel(warehouseClient); // передаем сокет в ViewModel
             DataContext = ViewModel;
+            ViewModel.LoginWindow = this;
         }
+       
 
-        private void passTB_PasswordChanged(object sender, RoutedEventArgs e)
+    private void passTB_PasswordChanged(object sender, RoutedEventArgs e)
         {
             ViewModel.Password = ((PasswordBox)sender).Password.ToString();
         }

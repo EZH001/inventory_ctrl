@@ -24,6 +24,7 @@ namespace client
     {
         private string _ipAddress;
         private bool _isConnecting;// Добавлено для индикации процесса
+        public WarehouseClient Client { get; private set; }
 
         public string IpAddress
         {
@@ -72,22 +73,17 @@ namespace client
 
             try
             {
-                // Проверка подключения к серверу
-                using (var client = new TcpClient())
+
+                Client = new WarehouseClient(IpAddress);
+                var result = await Client.Connect();
+                if (result)
                 {
-                    await client.ConnectAsync(IpAddress, 53551);// Замените 8080 на ваш порт
-                    // Подключение успешно
-                    var loginWindow = new LoginWindow(client);
-                    loginWindow.Owner = this;
-                    if (loginWindow.ShowDialog() == true)
-                    {
-                        this.DialogResult = true;
+                    var loginWindow = new LoginWindow(Client);
+                    //await Сlient.ConnectAsync(IpAddress, 53551);// Замените 8080 на ваш порт
+                    // Подключение успешно 
+                        //this.DialogResult = true;
                         this.Close();
-                    }
-                    else
-                    {
-                        IsConnecting = false; // Снимаем флаг подключения
-                    }
+                    loginWindow.Show();
                 }
             }
             catch (Exception ex)

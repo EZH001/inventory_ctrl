@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ezh01\source\repos\SQL\inventory_ctrl1\client\obj\Debug\
+C:\Users\Пользователь\Desktop\inventory_ctrl1\client\obj\Debug\
 client
 none
 false
 DEBUG;TRACE
-C:\Users\ezh01\source\repos\SQL\inventory_ctrl1\client\App.xaml
-2404946893
+C:\Users\Пользователь\Desktop\inventory_ctrl1\client\App.xaml
+41544248087
 
-12-127836074
-56-703488522
-ConnectWindow.xaml;LoginWindow.xaml;
+14-1416152672
+56-895444101
+ConnectWindow.xaml;LoginWindow.xaml;MainWindow.xaml;pages\ProductsPage.xaml;
 
 True
 
