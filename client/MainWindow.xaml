@@ -131,7 +131,7 @@
             <RowDefinition Height="110"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.RowSpan="2">
+        <StackPanel Grid.RowSpan="2" Background="#ffffff">
                         
                 <Border Background="#e40e20" Margin="10 10 0 10" CornerRadius="5" >
                     <StackPanel Orientation="Horizontal">
@@ -150,6 +150,6 @@
             
         </StackPanel>
         <Button x:Name="logoutBtn" Style="{DynamicResource ButtonStyle1}" Grid.Row="1" VerticalAlignment="Bottom" Content="Выйти из аккаунта" HorizontalContentAlignment="Left" Padding="12 8 12 8" FontSize="16" BorderThickness="2" FontWeight="Bold" Margin="10 0 0 20" Click="logoutBtn_Click"/>
-        <Frame x:Name="Frame" Grid.Row="1" Grid.Column="1" Margin=" 10 0 0 0"/>
+        <Frame x:Name="Frame" Background="#ffffff" Grid.Row="1" Grid.Column="1" Margin=" 10 0 10 10"/>
     </Grid>
 </Window>

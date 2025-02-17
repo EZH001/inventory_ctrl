@@ -7,7 +7,7 @@
     <ProjectGuid>{B85E9AE9-04F9-4553-BC25-612BEAE5C6AA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>server</RootNamespace>
-    <AssemblyName>server</AssemblyName>
+    <AssemblyName>СУ[Складской учёт]%28Сервер%29</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -162,7 +162,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Db\ApplicationDbContext.cs" />
+    <Compile Include="Db\Tables\Category.cs" />
+    <Compile Include="Db\Tables\Extradition.cs" />
+    <Compile Include="Db\Tables\Product.cs" />
+    <Compile Include="Db\Tables\Staff.cs" />
+    <Compile Include="Db\Tables\Storage.cs" />
+    <Compile Include="Db\Tables\StorageUnit.cs" />
+    <Compile Include="Db\Tables\Supplier.cs" />
     <Compile Include="Db\Tables\User.cs" />
+    <Compile Include="Db\Tables\User_name.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServerClass.cs" />

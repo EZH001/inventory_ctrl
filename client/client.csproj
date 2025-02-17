@@ -36,6 +36,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>gsb_logo.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="BCrypt.Net-Next, Version=4.0.3.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
       <HintPath>..\packages\BCrypt.Net-Next.4.0.3\lib\net48\BCrypt.Net-Next.dll</HintPath>
@@ -115,6 +119,7 @@
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationFramework.Aero2" />
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -178,22 +183,93 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Commands\RelayCommand.cs" />
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Models\Extradition.cs" />
+    <Compile Include="Models\Staff.cs" />
+    <Compile Include="Models\Storage.cs" />
+    <Compile Include="Models\Supplier.cs" />
+    <Compile Include="pages\AcceptencePage.xaml.cs">
+      <DependentUpon>AcceptencePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\ExtraditionPage.xaml.cs">
+      <DependentUpon>ExtraditionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\StoragePage.xaml.cs">
+      <DependentUpon>StoragePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\StaffPage.xaml.cs">
+      <DependentUpon>StaffPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\SupplierPage.xaml.cs">
+      <DependentUpon>SupplierPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\AddProductViewModel.cs" />
+    <Compile Include="ViewModels\AddStaffViewModel.cs" />
+    <Compile Include="ViewModels\AddStorageViewModel.cs" />
+    <Compile Include="ViewModels\AddSupplierViewModel.cs" />
+    <Compile Include="ViewModels\EditProductViewModel.cs" />
+    <Compile Include="ViewModels\EditStaffViewModel.cs" />
+    <Compile Include="ViewModels\EditStorageViewModel.cs" />
+    <Compile Include="ViewModels\EditSupplierViewModel.cs" />
+    <Compile Include="ViewModels\ExtraditionPageViewModel.cs" />
+    <Compile Include="ViewModels\ExtraditionWindowViewModel.cs" />
+    <Compile Include="ViewModels\ProductsWindowViewModel.cs" />
+    <Compile Include="ViewModels\StaffsViewModel.cs" />
+    <Compile Include="ViewModels\StaffWindowViewModel.cs" />
+    <Compile Include="ViewModels\StoragesViewModel.cs" />
+    <Compile Include="ViewModels\SuppliersViewModel.cs" />
+    <Compile Include="Views\AddStorageWindow.xaml.cs">
+      <DependentUpon>AddStorageWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddStaffWindow.xaml.cs">
+      <DependentUpon>AddStaffWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddSupplierWindow.xaml.cs">
+      <DependentUpon>AddSupplierWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditProductWindow.xaml.cs">
+      <DependentUpon>EditProductWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditStorageWindow.xaml.cs">
+      <DependentUpon>EditStorageWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditStaffWindow.xaml.cs">
+      <DependentUpon>EditStaffWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditSupplierWindow.xaml.cs">
+      <DependentUpon>EditSupplierWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExtraditionWindow.xaml.cs">
+      <DependentUpon>ExtraditionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\StorageUnit.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\User_name.cs" />
     <Compile Include="pages\ProductsPage.xaml.cs">
       <DependentUpon>ProductsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ProductWindow.xaml.cs">
+      <DependentUpon>ProductWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PropertyProductWindow.xaml.cs">
+      <DependentUpon>PropertyProductWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\ProductsViewModel.cs" />
+    <Compile Include="Views\StaffWindow.xaml.cs">
+      <DependentUpon>StaffWindow.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClientClass.cs" />
-    <Compile Include="ConnectWindow.xaml.cs">
+    <Compile Include="Views\ConnectWindow.xaml.cs">
       <DependentUpon>ConnectWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Db\ApplicationDbContext.cs" />
-    <Compile Include="Db\Tables\User.cs" />
-    <Compile Include="LoginWindow.xaml.cs">
+    <Compile Include="Views\LoginWindow.xaml.cs">
       <DependentUpon>LoginWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -223,15 +299,67 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="ConnectWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="LoginWindow.xaml">
+    <Page Include="pages\AcceptencePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
+    <Page Include="pages\ExtraditionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\StoragePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\StaffPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pages\SupplierPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddStorageWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddStaffWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddSupplierWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ConnectWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EditProductWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditStorageWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditStaffWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EditSupplierWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ExtraditionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -239,11 +367,25 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ProductWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PropertyProductWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StaffWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="asset\logo.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="gsb_logo.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\staffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\staffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\propertyproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\propertyproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\extraditionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\extraditionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\editsupplierwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\editsupplierwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\editstoragewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\editstoragewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\editstaffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\editstaffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\editproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\connectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\connectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\addsupplierwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\addsupplierwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\addstoragewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\addstoragewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|c:\\users\\ruk-proekta\\desktop\\inventory_ctrl1\\client\\views\\addstaffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DCE0F255-62FA-4FD5-B5CF-F5A0F4EA5172}|client\\client.csproj|solutionrelative:client\\views\\addstaffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\StaffWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\StaffWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\StaffWindow.xaml",
+              "RelativeToolTip": "client\\Views\\StaffWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:54:20.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropertyProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\PropertyProductWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\PropertyProductWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\PropertyProductWindow.xaml",
+              "RelativeToolTip": "client\\Views\\PropertyProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:53:54.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\ProductWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\ProductWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\ProductWindow.xaml",
+              "RelativeToolTip": "client\\Views\\ProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:51:10.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "client\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:49:42.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "client\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:49:32.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExtraditionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\ExtraditionWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\ExtraditionWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\ExtraditionWindow.xaml",
+              "RelativeToolTip": "client\\Views\\ExtraditionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:49:05.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditSupplierWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\EditSupplierWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\EditSupplierWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\EditSupplierWindow.xaml",
+              "RelativeToolTip": "client\\Views\\EditSupplierWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:48:45.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditStorageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\EditStorageWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\EditStorageWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\EditStorageWindow.xaml",
+              "RelativeToolTip": "client\\Views\\EditStorageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:48:30.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditStaffWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\EditStaffWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\EditStaffWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\EditStaffWindow.xaml",
+              "RelativeToolTip": "client\\Views\\EditStaffWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:48:11.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\EditProductWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\EditProductWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\EditProductWindow.xaml",
+              "RelativeToolTip": "client\\Views\\EditProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:48:02.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\ConnectWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\ConnectWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\ConnectWindow.xaml",
+              "RelativeToolTip": "client\\Views\\ConnectWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:47:56.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddSupplierWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\AddSupplierWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\AddSupplierWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\AddSupplierWindow.xaml",
+              "RelativeToolTip": "client\\Views\\AddSupplierWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:47:07.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddStorageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\AddStorageWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\AddStorageWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\AddStorageWindow.xaml",
+              "RelativeToolTip": "client\\Views\\AddStorageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:46:27.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddStaffWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\AddStaffWindow.xaml",
+              "RelativeDocumentMoniker": "client\\Views\\AddStaffWindow.xaml",
+              "ToolTip": "C:\\Users\\Ruk-proekta\\Desktop\\inventory_ctrl1\\client\\Views\\AddStaffWindow.xaml",
+              "RelativeToolTip": "client\\Views\\AddStaffWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T14:44:56.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

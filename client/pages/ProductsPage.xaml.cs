@@ -1,4 +1,5 @@
-﻿using System;
+﻿using client.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,10 +20,17 @@ namespace client.pages
     /// Логика взаимодействия для ProductsPage.xaml
     /// </summary>
     public partial class ProductsPage : Page
-    {
-        public ProductsPage()
+    {private WarehouseClient _client;
+        public ProductsPage(WarehouseClient warehouseClient)
         {
+            this._client = warehouseClient;
             InitializeComponent();
+            DataContext = new ProductsViewModel(_client);
+        }
+        private void ProductsListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            var viewModel = DataContext as ProductsViewModel;
+            viewModel.OpenPropertyProductWindowCommand.Execute(null);
         }
     }
 }

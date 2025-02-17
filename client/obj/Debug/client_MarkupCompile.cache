@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ezh01\Desktop\inventory_ctrl1\client\obj\Debug\
+C:\Users\Ruk-proekta\Desktop\inventory_ctrl1\client\obj\Debug\
 client
 none
 false
 DEBUG;TRACE
-C:\Users\ezh01\Desktop\inventory_ctrl1\client\App.xaml
-41544248087
+C:\Users\Ruk-proekta\Desktop\inventory_ctrl1\client\App.xaml
+202037445747
 
-13957036503
-56-854427832
-ConnectWindow.xaml;LoginWindow.xaml;MainWindow.xaml;pages\ProductsPage.xaml;
+521440903431
+57916780145
+pages\AcceptencePage.xaml;pages\ExtraditionPage.xaml;pages\StoragePage.xaml;pages\StaffPage.xaml;pages\SupplierPage.xaml;Views\AddStorageWindow.xaml;Views\AddStaffWindow.xaml;Views\AddSupplierWindow.xaml;Views\ConnectWindow.xaml;Views\EditProductWindow.xaml;Views\EditStorageWindow.xaml;Views\EditStaffWindow.xaml;Views\EditSupplierWindow.xaml;Views\ExtraditionWindow.xaml;Views\LoginWindow.xaml;Views\MainWindow.xaml;pages\ProductsPage.xaml;Views\ProductWindow.xaml;Views\PropertyProductWindow.xaml;Views\StaffWindow.xaml;
 
 False
 

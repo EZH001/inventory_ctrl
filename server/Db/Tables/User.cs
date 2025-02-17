@@ -9,7 +9,8 @@ namespace server.Db.Tables
     public class User
     {
         public int Id { get; private set; }
-        public string Username { get; private set; }
-        public string Password { get; private set; }
+        public string Login { get; private set; }
+        public string Password_hash { get; private set; }
+        public bool IsAdmin { get; private set; }
     }
 }

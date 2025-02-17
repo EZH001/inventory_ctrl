@@ -1,4 +1,5 @@
 ﻿using client.Commands;
+using client.Views;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -56,7 +57,7 @@ namespace client.ViewModels
             LoginCommand = new RelayCommand(LoginAsync, CanLogin);
         }
 
-        public LoginViewModel() : this(null) { } //Подумайте, как лучше инициализировать client здесь
+        public LoginViewModel() : this(null) { } 
 
 
         private bool CanLogin(object obj)
@@ -69,25 +70,18 @@ namespace client.ViewModels
             IsLoggingIn = true;
             try
             {
-                // Отправка запроса на сервер в формате JSON
-                //string requestJson = JsonConvert.SerializeObject(new { type = "auth", username = Username, password = Password });
-                //byte[] requestBytes = Encoding.UTF8.GetBytes(requestJson);
-                //await client.GetStream().WriteAsync(requestBytes, 0, requestBytes.Length);
-
-                //byte[] responseBytes = new byte[1024];
-                //int bytesRead = await client.GetStream().ReadAsync(responseBytes, 0, responseBytes.Length);
-                //if (bytesRead > 0)
-                //{
-                //    string responseJson = Encoding.UTF8.GetString(responseBytes, 0, bytesRead).Trim('\0');
-                //    dynamic response = JsonConvert.DeserializeObject(responseJson);
+               
                 var result = await _warehouseClient.Authenticate(Username, Password);
-                if (result)
-                {
-                    MainWindow mainWindow = new MainWindow(_warehouseClient);
-                    mainWindow.Show();
-                    //LoginWindow.DialogResult = true;
-                    LoginWindow?.Close();
-                }
+                if (result != null) {
+                    dynamic response = JsonConvert.DeserializeObject(result);
+                    if ((bool)response.success)
+                    {
+                        MainWindow mainWindow = new MainWindow(_warehouseClient, response);
+                        mainWindow.Show();
+                        
+                        LoginWindow?.Close();
+                    }
+                }  
             }
 
             catch (JsonReaderException ex)

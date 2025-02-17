@@ -1,4 +1,5 @@
-﻿using System;
+﻿using client.pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Sockets;
@@ -21,19 +22,25 @@ namespace client
     public partial class MainWindow : Window
     {
         private WarehouseClient Client;
-        public MainWindow(WarehouseClient client)
+        private dynamic userData;
+        private ProductsPage _productsPage;
+        public MainWindow(WarehouseClient client, dynamic response)
         {
             this.Client = client;
+            this.userData = response;
+            _productsPage = new ProductsPage(Client);
             InitializeComponent();
+            usernameTB.Text = userData.last_name + " " + userData.first_name;
+
         }
 
         private void productsBtn_Click(object sender, RoutedEventArgs e)
         {
             productsBtn.Style = (Style)this.FindResource("ButtonStyle2");
-            acceptanceBtn.Style = (Style)this.FindResource("ButtonStyle1");            
+            acceptanceBtn.Style = (Style)this.FindResource("ButtonStyle1");     
             extraditionBtn.Style = (Style)this.FindResource("ButtonStyle1");
             storageBtn.Style = (Style)this.FindResource("ButtonStyle1");
-            Frame.NavigationService.Navigate(new Uri("pages/ProductsPage.xaml", UriKind.Relative));
+            Frame.NavigationService.Navigate(_productsPage);
             this.Title = "Товары";
         }
 
@@ -41,7 +48,7 @@ namespace client
         {
             productsBtn.Style = (Style)this.FindResource("ButtonStyle1");
             acceptanceBtn.Style = (Style)this.FindResource("ButtonStyle1");
-            extraditionBtn.Style = (Style)this.FindResource("ButtonStyle1");
+            extraditionBtn.Style = (Style)this.FindResource("ButtonStyle1");  
             storageBtn.Style = (Style)this.FindResource("ButtonStyle2");
             //Frame.NavigationService.Navigate(new Uri("pages/ProductsPage.xaml", UriKind.Relative));
             this.Title = "Места хранения";

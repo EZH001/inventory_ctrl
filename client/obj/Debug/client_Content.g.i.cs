@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/logo.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("gsb_logo.ico")]
 
 
